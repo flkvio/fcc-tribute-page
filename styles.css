@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
   transition: transform 1s, filter 1s;
@@ -13,7 +12,7 @@
 html {
 	user-select: none;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -90,8 +89,8 @@ ul li:hover {
   background-color: #ffffff;
   width: fit-content;
   border: 1px solid #d5d5d5;
-  padding: 1em 1em 0 1em;
-  margin: 0 0 1em 0;
+  padding: 1rem 1rem 0 1rem;
+  margin: 0 0 1rem 0;
 }
 .img-div__image {
   filter: brightness(0.8);
@@ -107,7 +106,7 @@ ul li:hover {
 .img-div figcaption {
   text-align: center;
   font-size: 1.3rem;
-  padding: 0.5em 0;
+  padding: 0.5rem 0;
   font-family: "Shadows Into Light", cursive;
 }
 
@@ -176,8 +175,7 @@ ul li:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 100vw;
-  width: 100vw;        	
+  min-width: 100%;   	
   padding: 1em 0 2em 0;
   background-color: #1c1c1c;
 }
@@ -195,7 +193,7 @@ footer ul li a img {
   width: 3rem;
 }
 
-@media (max-width:600px) {
+@media (width <= 600px) {
 
   .navigation ul li{
     margin: 0 5vw;
